@@ -8,6 +8,10 @@ body a {
     background-color: #FFF8F3;
     width: 1600px;
     height: 837px;
+    background-image: url('./images/header_bg.png');
+    /* background-image: url('./images/developer.png'); */
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 nav {
@@ -46,6 +50,7 @@ nav a {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
+
 }
 
 nav>ul {
@@ -59,8 +64,9 @@ nav li {
 }
 
 .banner {
-    padding: 30px 30px 30px 150px;
+    padding: 20px;
     display: flex;
+    justify-content: space-around;
     align-items: center;
 
 }
@@ -68,4 +74,53 @@ nav li {
 .profile-pic {
     width: 584px;
     height: 676px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-heading {
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-des {
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.about {
+    border-radius: 10px;
+    background: #FFF8F3;
+    width: 1140px;
+    height: 550px;
+    margin: 130px 0;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 130px;
+
+}
+
+.section-des {
+    color: #757575;
+    text-align: center;
+
+    font-size: 18px;
+
+    font-weight: 400;
+    line-height: 30px;
+    padding: 30px 100px 30px 100px;
 }
