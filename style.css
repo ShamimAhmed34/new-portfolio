@@ -8,10 +8,10 @@ body a {
     background-color: #FFF8F3;
     width: 1600px;
     height: 837px;
-    background-image: url('./images/header_bg.png');
+    background-image: url('./images/header_bg.png'),url('./images/developer.png');
     /* background-image: url('./images/developer.png'); */
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 nav {
@@ -215,13 +215,52 @@ nav li {
 
 .resume-column>p {
     color: #757575;
-    
+
     font-size: 16px;
-    
+
     font-weight: 400;
     line-height: 28px;
 }
 
 .download-cv {
-   text-align: center;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 50px;
+    background-color: #FFF8F3;
+}
+
+.message-me {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.footer-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.social-link>p {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.message-me {
+    border: 0 solid white;
+    border-radius: 5px;
+    background: white;
+    padding: 20px 30px;
+    width: 100%;
+}
+
+.img-container img {
+    padding: 15px;
 }
