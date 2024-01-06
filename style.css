@@ -184,3 +184,44 @@ nav li {
     font-weight: 700;
 
 }
+
+.resume-container2 {
+    display: flex;
+    width: 1100px;
+    margin: 100px auto;
+    margin-bottom: 70px;
+    gap: 30px;
+}
+
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-column-title2 {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.resume-title3 {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0;
+
+}
+
+.resume-column>p {
+    color: #757575;
+    
+    font-size: 16px;
+    
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.download-cv {
+   text-align: center;
+}
